@@ -9,8 +9,12 @@
   const company = c.companyName || '长沙益汇信息科技有限公司';
   const fullName = c.companyFullName || company;
   const intro = c.footerIntro || '';
-  const year = c.copyrightYear || new Date().getFullYear();
+  const year = new Date().getFullYear();
   const icp = c.icp || '';
+  const icpUrl = c.icpUrl || 'https://beian.miit.gov.cn/';
+  const icpHtml = icp
+    ? `<a href="${icpUrl}" target="_blank" rel="noopener noreferrer">${icp}</a>`
+    : '';
 
   const maxFooterProducts = 3;
   const productLinks = products
@@ -48,7 +52,7 @@
   </div>
   <div class="wrap footer-bottom">
     <p class="footer-bottom-line">
-      Copyright © ${year} ${fullName} 版权所有 &nbsp;|&nbsp; ${icp}
+      Copyright © ${year} ${fullName} 版权所有 &nbsp;|&nbsp; ${icpHtml}
       &nbsp;|&nbsp;
       <img class="footer-visitor-badge" src="https://visitor-badge.laobi.icu/badge?page_id=changsha-yihui-website" alt="Visitors" loading="lazy" decoding="async" referrerpolicy="no-referrer-when-downgrade">
     </p>

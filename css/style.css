@@ -709,6 +709,17 @@ img {
   gap: 8px;
 }
 
+.footer-bottom-line a {
+  display: inline;
+  margin-bottom: 0;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer-bottom-line a:hover {
+  color: #fff;
+}
+
 .footer-visitor-badge {
   display: inline-block;
   height: 20px;
