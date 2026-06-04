@@ -8,6 +8,6 @@ window.SITE_CONFIG = {
   email: '30760655@qq.com',
   address: '湖南省长沙市芙蓉区东屯渡街道金塘家园',
   workHours: '周一至周五 9:00—18:00',
-  icp: '湘ICP备2022006706号-1',
+  icp: '湘ICP备2021019600号-1',
   icpUrl: 'https://beian.miit.gov.cn/',
 };
