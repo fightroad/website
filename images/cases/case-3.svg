@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="1" stop-color="#d6efff"/>
+    </linearGradient>
+    <linearGradient id="a" x1="150" y1="110" x2="650" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0068b7"/>
+      <stop offset="1" stop-color="#004d8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="110" y="90" width="580" height="290" rx="18" fill="#ffffff" stroke="#cfe6f9" stroke-width="3"/>
+  <rect x="160" y="128" width="480" height="70" rx="16" fill="url(#a)" opacity="0.95"/>
+
+  <!-- MDT nodes -->
+  <g fill="#e8f4fc" opacity="0.95">
+    <circle cx="250" cy="290" r="22"/>
+    <circle cx="400" cy="250" r="22"/>
+    <circle cx="520" cy="300" r="22"/>
+    <circle cx="360" cy="330" r="22"/>
+  </g>
+  <g stroke="#0068b7" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round">
+    <path d="M272 290L378 258"/>
+    <path d="M422 250L498 292"/>
+    <path d="M400 272L368 308"/>
+    <path d="M270 302L346 322"/>
+    <path d="M432 268L506 292"/>
+  </g>
+  <g fill="#0068b7" opacity="0.85">
+    <circle cx="250" cy="290" r="10"/>
+    <circle cx="400" cy="250" r="10"/>
+    <circle cx="520" cy="300" r="10"/>
+    <circle cx="360" cy="330" r="10"/>
+  </g>
+</svg>

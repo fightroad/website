@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CloudRIS 云影像信息系统 - 影像科室业务流程一体化管理">
+  <title>CloudRIS 云影像信息系统 - 长沙益汇信息科技有限公司</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body data-base="../../" data-nav-product="cloudris">
+  <div id="site-header"></div>
+
+  <section class="page-banner">
+    <div class="page-banner-bg"><img src="../../images/banner-products.svg" alt="" role="presentation"></div>
+    <div class="page-banner-overlay"></div>
+    <div class="wrap">
+      <h1>CloudRIS 云影像信息系统</h1>
+      <div class="breadcrumb"><a href="../../index.html">首页</a> &gt; <a href="../../index.html#products">产品中心</a> &gt; CloudRIS</div>
+    </div>
+  </section>
+
+  <section class="page-body">
+    <div class="wrap page-layout">
+      <div id="site-sidebar"></div>
+      <div class="content-box">
+        <h2>产品概述</h2>
+        <p>CloudRIS 是面向医院放射科、影像科的云影像信息系统（RIS），覆盖检查登记、影像关联、报告书写与审核、签发打印等业务环节，并与医院信息系统（HIS）、影像存档系统（PACS）及各类影像查看器协同工作。</p>
+        <p>系统提供登记分诊、报告质控、排班与任务分配、统计报表、消息提醒等功能。医护人员通过浏览器登录使用；管理员在后台维护用户权限、科室与设备、模板及对接配置。</p>
+        <figure class="content-figure">
+          <img loading="lazy" decoding="async" src="examlist.webp" alt="CloudRIS 检查列表与工作台界面">
+        </figure>
+
+        <h2>应用价值</h2>
+        <h3>科室管理</h3>
+        <ul>
+          <li>检查与报告进度可查、可统计，便于掌握工作量与积压情况</li>
+          <li>书写、审核、签发环节清晰，操作留痕，便于质控与追溯</li>
+          <li>与 HIS、PACS 对接，减少重复录入和系统间来回切换</li>
+        </ul>
+        <h3>业务协同</h3>
+        <ul>
+          <li>登记、技师、报告与审核医生在同一平台协作，状态实时同步</li>
+          <li>结合排班规则自动分配报告与审核任务，减轻人工分单</li>
+          <li>新任务、报告退回等通过消息及时通知相关人员</li>
+        </ul>
+
+        <h2>业务流程</h2>
+        <p>典型流程如下：</p>
+        <p style="padding:12px 14px;background:#f5f7fa;border:1px solid #e5e5e5;border-radius:2px;">
+          登记分诊 → 完成检查（影像进入 PACS）→ 影像与检查匹配 → 报告书写 → 审核 → 签发 → 打印
+        </p>
+        <p>每条检查在系统中对应统一状态，如已登记、已匹配、报告中、已报告、已审核、已签发、已打印等。审核不通过时可退回修改，相关记录均可查询。</p>
+        <p>影像匹配完成后，系统可按设备类型、排班等规则自动分配报告医生；报告提交后可继续分配审核医生，具体规则由医院配置。</p>
+
+        <h2>功能说明</h2>
+        <h3>检查登记</h3>
+        <ul>
+          <li>登记患者信息，选择检查项目与部位，支持一次登记多项检查</li>
+          <li>支持从 HIS 导入门诊、住院、体检等申请单</li>
+          <li>打印检查条码，支持申请单扫描或上传存档</li>
+        </ul>
+        <h3>检查管理</h3>
+        <ul>
+          <li>按检查号、患者姓名、时间等条件查询与跟踪</li>
+          <li>查看检查详情与进度，按权限修改或取消检查</li>
+          <li>查看、管理电子申请单</li>
+        </ul>
+        <h3>影像管理</h3>
+        <ul>
+          <li>查询 PACS 影像，并与检查记录匹配关联</li>
+          <li>支持多种影像查看器对接，按医院配置调阅；查看器调整或切换不影响日常操作习惯</li>
+        </ul>
+        <h3>报告管理</h3>
+        <ul>
+          <li>按规范结构书写报告，支持模板快速录入</li>
+          <li>报告编辑锁定，避免多人同时修改</li>
+          <li>支持保存、审核、退回、签发等流程，可按需配置初审、复审</li>
+          <li>报告选图：在影像查看器中选取关键图像加入当前报告，便于附图展示</li>
+          <li>过往检查对比：按患者查询历史检查与报告，调阅既往影像进行对比，可将历史所见、诊断等内容插入当前报告</li>
+          <li>报告预览与打印；可查阅病历摘要等相关信息</li>
+          <li>已签发报告的修改按权限与流程管控</li>
+        </ul>
+        <h3>排班与报告分配</h3>
+        <ul>
+          <li>维护报告医生、审核医生排班</li>
+          <li>排班与分配规则参与自动分单，任务优先分配给在岗人员</li>
+        </ul>
+        <h3>统计与报表</h3>
+        <ul>
+          <li>工作台提供检查量、工作量等常规统计与图表展示</li>
+          <li>支持低代码配置报表：在管理后台维护报表名称、查询条件与展示模板，绑定业务数据后即可发布使用</li>
+          <li>支持在线生成与预览，支持导出 Excel，便于科室分析、考核与上报</li>
+        </ul>
+        <h3>其他能力</h3>
+        <ul>
+          <li>消息通知：待办、退回、分配变更等实时提醒</li>
+          <li>检查分享：在授权策略下生成分享链接或二维码（范围可配置）</li>
+          <li>远程会诊：可选开通，便于院内外协作</li>
+          <li>系统管理：用户与权限、科室与设备、模板与字典、操作与登录日志等</li>
+        </ul>
+
+        <h2>系统对接</h2>
+        <table class="info-table">
+          <tr><th>对接对象</th><th>主要作用</th></tr>
+          <tr><td>HIS</td><td>获取申请单及患者信息，支撑登记与核对</td></tr>
+          <tr><td>PACS</td><td>影像数据接入，完成与检查、报告的关联</td></tr>
+          <tr><td>影像查看器</td><td>统一阅片入口，支持多种查看器对接与配置</td></tr>
+          <tr><td>临床信息系统</td><td>报告签发后按医院规范供临床调阅</td></tr>
+        </table>
+        <p>对接范围与方式在实施阶段与医院信息科及相关厂商共同确定。</p>
+
+        <h2>产品特点</h2>
+        <ul>
+          <li>业务闭环：覆盖登记、影像、报告、审核、签发、统计与报表全链条</li>
+          <li>报表可配：内置统计与低代码配置报表，可按科室、院区灵活扩展</li>
+          <li>质控规范：多级审核、退回修改、版本与操作记录</li>
+          <li>灵活部署：支持单院、多院区及上下级协同报告</li>
+          <li>开放兼容：多种数据库与影像查看器可选，适配信创及国产化环境</li>
+          <li>权限可控：按岗位分配功能与操作权限，关键行为可审计</li>
+          <li>运维完善：系统监控、日志查询及计划任务等管理能力</li>
+        </ul>
+
+        <h2>部署环境与兼容性</h2>
+        <ul>
+          <li>多平台：B/S 架构，浏览器即可使用；服务端支持 Windows、Linux，可部署于物理机、虚拟机或容器</li>
+          <li>多数据库：支持主流关系型数据库，便于沿用医院现有数据环境</li>
+          <li>信创适配：可在国产化软硬件环境中部署运行（实施时与医院共同确认清单）</li>
+        </ul>
+
+        <h2>适用场景</h2>
+        <ul>
+          <li>二级及以上医院放射科、影像科、医学影像中心</li>
+          <li>需与 HIS、PACS 协同、规范影像科业务流程的科室</li>
+          <li>医联体、医疗集团等多院区登记与集中报告、区域协同阅片</li>
+          <li>信创改造、国产化替代或多数据库选型等建设需求</li>
+        </ul>
+
+        <h2>系统界面</h2>
+        <h3>业务操作</h3>
+        <figure class="content-figure"><img loading="lazy" decoding="async" src="risreport.webp" alt="CloudRIS 报告书写示意"></figure>
+        <h3>管理后台</h3>
+        <figure class="content-figure"><img loading="lazy" decoding="async" src="后台管理.webp" alt="CloudRIS 后台管理示意"></figure>
+
+        <table class="info-table">
+          <tr><th>适用对象</th><td>二级及以上医院放射科、影像科、区域影像中心</td></tr>
+          <tr><th>部署方式</th><td>B/S 架构，支持 Windows / Linux / 容器化部署</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="../../js/site-config.js"></script>
+  <script src="../../js/products.js"></script>
+  <script src="../../js/header.js"></script>
+  <script src="../../js/nav.js"></script>
+  <script src="../../js/layout.js"></script>
+  <script src="../../js/sidebar.js"></script>
+  <script src="../../js/main.js"></script>
+</body>
+</html>
